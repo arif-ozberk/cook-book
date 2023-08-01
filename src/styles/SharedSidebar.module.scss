@@ -1,0 +1,189 @@
+@import "./globals.scss";
+
+
+.SharedSidebar {
+    height: 100vh;
+    width: 20rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+
+    @media(max-width: 1440px) {
+        width: 16rem;
+    }
+
+    @media(max-width: 1024px) {
+        width: 20rem;
+        background-color: $white;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease;
+    }
+
+    @media(max-width: 425px) {
+        width: 100%;
+    }
+
+    .errorMessage {
+        color: $navy;
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+.sidebarActive {
+    transform: translateX(0);
+}
+
+.sidebarButton {
+    position: fixed;
+    z-index: 98;
+    top: 0;
+    left: 0;
+    background-color: $gold;
+    color: $navy;
+    font-size: 1.2rem;
+    width: 5rem;
+    height: 2rem;
+    border-bottom-right-radius: 1rem;
+    cursor: pointer;
+    @include flex-center
+}
+
+.sidebarLogo {
+    background-color: $gold;
+    display: flex;
+    align-items: center;
+    padding: 1.4rem 0 1.4rem 2rem;
+    border-bottom-right-radius: 3rem;
+
+    img {
+        width: 3rem;
+        margin-right: 0.5rem;
+    }
+
+    a {
+        font-size: 1.6rem;
+        color: $navy;
+        font-weight: 700;
+    }
+}
+
+.closeButton {
+    display: none;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    font-size: 1.4rem;
+    color: $navy;
+    cursor: pointer;
+    transition: scale 0.2s ease;
+
+    @media(max-width: 1024px) {
+        display: block;
+    }
+
+    &:hover {
+        scale: 1.1;
+    }
+}
+
+.topChoicesTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2  {
+        font-size: 1.3rem;
+        color: $navy;
+        margin-right: 0.5rem;
+    }
+
+    i {
+        font-size: 2rem;
+        color: $navy;
+    }
+}
+
+.mealFrame {
+    overflow-y: scroll;
+    height: 100%;
+
+    &::-webkit-scrollbar {
+        background-color: transparent;
+        width: 0.5rem;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $purple-faded;
+        border-radius: 20px;
+    }
+}
+
+.mealCardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    row-gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+.SidebarMeal {
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+    &:hover img {
+        scale: 1.1;
+    }
+
+    .mealImage {
+        border-radius: 2rem;
+        overflow: hidden;
+
+        img {
+            height: 100%;
+            display: flex;
+            transition: scale 0.3s ease;
+        }
+    }
+
+    .mealName {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: $navy;
+        margin-bottom: 5px;
+    }
+
+    .mealArea {
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: $purple-faded;
+        margin-bottom: 5px;
+    }
+
+    .duration {
+        font-size: 1rem;
+        margin-bottom: 5px;
+        color: $green;
+
+        i {
+            margin-right: 5px;
+        }
+    }
+
+    .ratings {
+        font-size: 1rem;
+        font-weight: 500;
+        color: $gold;
+
+        i {
+            margin-right: 5px;
+        }
+    }
+}

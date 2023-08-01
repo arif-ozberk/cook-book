@@ -1,0 +1,141 @@
+@import "../globals.scss";
+
+
+.ClickedMealPage {
+    width: calc(100% - 20rem);
+    height: 100%;
+    margin-left: auto;
+
+    @media(max-width: 1440px) {
+        width: calc(100% - 16rem);
+    }
+
+    @media(max-width: 1024px) {
+        width: 100%;
+    }
+}
+
+.mealName {
+    margin-bottom: 1rem;
+    color: $navy;
+    font-size: 2.8rem;
+
+    @media(max-width: 1250px) {
+        font-size: 2rem;
+    }
+
+    @media(max-width: 375px) {
+        font-size: 1.6rem;
+    }
+}
+
+.mealInfo {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 3rem;
+    margin-bottom: 2rem;
+
+    @media(max-width: 1250px) {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }
+
+    .mealInfoLeft {
+
+        img {
+            border-radius: 3rem;
+            margin-bottom: 0.5rem;
+
+            @media(max-width: 1250px) {
+                width: 60%;
+            }
+
+            @media(max-width: 570px) {
+                width: 100%;
+            }
+        }
+
+        h3 {
+            color: $navy;
+            font-size: 1.1rem;
+            font-weight: 500;
+
+            span {
+                font-weight: 600;
+                background-color: $purple-mid;
+                color: $gray;
+                border-radius: 0.5rem;
+                padding: 0 0.5rem;
+                margin-right: 0.3rem;
+            }
+
+            &:nth-child(odd) {
+                margin-bottom: 1.5rem;
+            }
+
+            &:nth-child(even) {
+                margin-bottom: 0.3rem;
+            }
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: $purple-mid;
+            margin-bottom: 0.5rem;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+            color: $navy;
+        }
+    }
+
+    .mealInfoRight {
+        h2 {
+            font-size: 1.4rem;
+            color: $purple-mid;
+            margin-bottom: 0.5rem;
+            display: none;
+
+            @media(max-width: 768px) {
+                display: block;
+            }
+        }
+
+        p {
+            color: $navy;
+
+            @media(max-width: 768px) {
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+.videoTitle {
+    font-size: 1.4rem;
+    color: $purple-mid;
+    margin-bottom: 0.5rem;
+
+}
+
+.mealVideo {
+    width: 70%;
+    aspect-ratio: 16/9;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-bottom: 5rem;
+
+    @media(max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.videoError {
+    font-size: 1rem;
+    font-weight: 600;
+    color: $purple-mid;
+    margin-bottom: 5rem;
+}

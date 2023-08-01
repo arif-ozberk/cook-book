@@ -1,0 +1,179 @@
+{
+    "countries": [
+        {
+            "countryName": "All",
+            "flag": "https://img.icons8.com/ios/100/geography--v1.png"
+        },
+        {
+            "countryName": "American",
+            "flag": "https://flagsapi.com/US/flat/64.png"
+        },
+        {
+            "countryName": "British",
+            "flag": "https://flagsapi.com/GB/flat/64.png"
+        },
+        {
+            "countryName": "Canadian",
+            "flag": "https://flagsapi.com/CA/flat/64.png"
+        },
+        {
+            "countryName": "Chinese",
+            "flag": "https://flagsapi.com/CN/flat/64.png"
+        },
+        {
+            "countryName": "Croatian",
+            "flag": "https://flagsapi.com/HR/flat/64.png"
+        },
+        {
+            "countryName": "Dutch",
+            "flag": "https://flagsapi.com/NL/flat/64.png"
+        },
+        {
+            "countryName": "Egyptian",
+            "flag": "https://flagsapi.com/EG/flat/64.png"
+        },
+        {
+            "countryName": "Filipino",
+            "flag": "https://flagsapi.com/PH/flat/64.png"
+        },
+        {
+            "countryName": "French",
+            "flag": "https://flagsapi.com/FR/flat/64.png"
+        },
+        {
+            "countryName": "Greek",
+            "flag": "https://flagsapi.com/GR/flat/64.png"
+        },
+        {
+            "countryName": "Indian",
+            "flag": "https://flagsapi.com/IN/flat/64.png"
+        },
+        {
+            "countryName": "Irish",
+            "flag": "https://flagsapi.com/IE/flat/64.png"
+        },
+        {
+            "countryName": "Italian",
+            "flag": "https://flagsapi.com/IT/flat/64.png"
+        },
+        {
+            "countryName": "Jamaican",
+            "flag": "https://flagsapi.com/JM/flat/64.png"
+        },
+        {
+            "countryName": "Japanese",
+            "flag": "https://flagsapi.com/JP/flat/64.png"
+        },
+        {
+            "countryName": "Kenyan",
+            "flag": "https://flagsapi.com/KE/flat/64.png"
+        },
+        {
+            "countryName": "Malaysian",
+            "flag": "https://flagsapi.com/MY/flat/64.png"
+        },
+        {
+            "countryName": "Mexican",
+            "flag": "https://flagsapi.com/MX/flat/64.png"
+        },
+        {
+            "countryName": "Moroccan",
+            "flag": "https://flagsapi.com/MA/flat/64.png"
+        },
+        {
+            "countryName": "Polish",
+            "flag": "https://flagsapi.com/PL/flat/64.png"
+        },
+        {
+            "countryName": "Portuguese",
+            "flag": "https://flagsapi.com/PT/flat/64.png"
+        },
+        {
+            "countryName": "Russian",
+            "flag": "https://flagsapi.com/RU/flat/64.png"
+        },
+        {
+            "countryName": "Spanish",
+            "flag": "https://flagsapi.com/ES/flat/64.png"
+        },
+        {
+            "countryName": "Thai",
+            "flag": "https://flagsapi.com/TH/flat/64.png"
+        },
+        {
+            "countryName": "Tunusian",
+            "flag": "https://flagsapi.com/TN/flat/64.png"
+        },
+        {
+            "countryName": "Turkish",
+            "flag": "https://flagsapi.com/TR/flat/64.png"
+        },
+        {
+            "countryName": "Vietnamese",
+            "flag": "https://flagsapi.com/VN/flat/64.png"
+        }
+    ],
+
+    "types": [
+        {
+            "typeName": "All",
+            "typeImage": "https://img.icons8.com/ios/100/geography--v1.png"
+        },
+        {
+            "typeName": "Beef",
+            "typeImage": "https://img.icons8.com/ios/100/steak-medium.png"
+        },
+        {
+            "typeName": "Breakfast",
+            "typeImage": "https://img.icons8.com/ios/100/pancake.png"
+        },
+        {
+            "typeName": "Chicken",
+            "typeImage": "https://img.icons8.com/external-photo3ideastudio-lineal-photo3ideastudio/64/external-chicken-chinese-new-year-photo3ideastudio-lineal-photo3ideastudio.png"
+        },
+        {
+            "typeName": "Dessert",
+            "typeImage": "https://img.icons8.com/ios/100/dessert.png"
+        },
+        {
+            "typeName": "Goat",
+            "typeImage": "https://img.icons8.com/ios/100/jamon.png"
+        },
+        {
+            "typeName": "Lamb",
+            "typeImage": "https://img.icons8.com/ios/100/rack-of-lamb.png"
+        },
+        {
+            "typeName": "Miscellaneous",
+            "typeImage": "https://img.icons8.com/ios/100/plate.png"
+        },
+        {
+            "typeName": "Pasta",
+            "typeImage": "https://img.icons8.com/wired/64/spaghetti.png"
+        },
+        {
+            "typeName": "Pork",
+            "typeImage": "https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/external-pork-food-and-drinks-dreamstale-lineal-dreamstale.png"
+        },
+        {
+            "typeName": "Seafood",
+            "typeImage": "https://img.icons8.com/ios/100/fish-food.png"
+        },
+        {
+            "typeName": "Side",
+            "typeImage": "https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/external-salad-stay-home-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"
+        },
+        {
+            "typeName": "Starter",
+            "typeImage": "https://img.icons8.com/ios/100/porridge--v1.png"
+        },
+        {
+            "typeName": "Vegan",
+            "typeImage": "https://img.icons8.com/ios/100/vegan-food.png"
+        },
+        {
+            "typeName": "Vegetarian",
+            "typeImage": "https://img.icons8.com/ios/100/vegetarian-food.png"
+        }
+    ]
+}
